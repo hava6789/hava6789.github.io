@@ -6,3 +6,6 @@ p{
     font-size: 12px;
     background-color: antiquewhite;
 }
+img{
+    width: device-width;
+}
