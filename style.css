@@ -8,7 +8,7 @@ h1{
 table{
     width: 100%;
     border-radius:5px;
-    color:#FFFFFF
+    color:#eff0da;
 }
 table, th, td{
     border-style:solid;
@@ -21,7 +21,8 @@ th, td{
     background-color:#63cfbd;
 }
 tr:hover{
-    background-color:#90d1c6;
+    background-color:#eff0da;
+    color:#000000;
 }
 th{
     background-color:#42b8a4;
