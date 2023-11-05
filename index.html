@@ -18,7 +18,9 @@
     <body>
         <script>
             $(document).ready(function(){
-                $("img").addClass("animated fadeIn");
+                $("img").hover(function(){
+                    $("img").animated({width:250px;});
+                };
             });
         </script>
         <h1>
