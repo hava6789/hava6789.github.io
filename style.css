@@ -5,3 +5,11 @@ h1{
 table{
     width: 100%;
 }
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td{
+    width:auto;
+    background-color:#42b8a4;
+}
