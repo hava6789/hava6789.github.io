@@ -8,6 +8,7 @@ h1{
 table{
     width: 100%;
     border-radius:5px;
+    color:#FFFFFF
 }
 table, th, td{
     border-style:solid;
