@@ -19,7 +19,9 @@
                 $("img").fadeIn(500);
             });
             $("img").hover(function(){
-                $("img").animated({width:250px;
+                $(this).animated({width:250px});
+            },function(){
+                $(this).animated({width:200px});
             });
         </script>
         <h1>
