@@ -15,14 +15,11 @@
     </head>
     <body>
         <script>
-            $("img").fadeIn(3000);
-            $(document).ready(function(){
-                
-            });
+            $("img").fadeIn("slow");
             $("img").hover(function(){
-                $(this).animate({width:250px});
+                $(this).animate({width:"250px"});
             },function(){
-                $(this).animate({width:200px});
+                $(this).animate({left:"200px"});
             });
         </script>
         <h1>
