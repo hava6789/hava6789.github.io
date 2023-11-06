@@ -21,10 +21,16 @@
             },function(){
                 $(this).animate({left:"200px"});
             });
+            $(document).ready(function(){
+                $("#fadeOut").click(function(){
+                    $("img").fadeOut();
+                });
+            });
         </script>
         <h1>
             推しのアニメリスト
         </h1>
+        <button id="fadeOut">fadeOut</button>
         <div id="main_container">
             <table>
                 <tr>
