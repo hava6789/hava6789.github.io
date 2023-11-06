@@ -15,22 +15,26 @@
     </head>
     <body>
         <script>
-            $("img").fadeIn("slow");
+            
             $("img").hover(function(){
                 $(this).animate({width:"250px"});
             },function(){
                 $(this).animate({left:"200px"});
             });
             $(document).ready(function(){
+                $("img").fadeIn(2000);
                 $("#fadeOut").click(function(){
                     $("img").fadeOut();
+                });
+                $("#fadeIn").click(function(){
+                    $("img").fadeIn();
                 });
             });
         </script>
         <h1>
             推しのアニメリスト
         </h1>
-        <button id="fadeOut">fadeOut</button>
+        <button id="fadeOut">fadeOut</button><button id="fadeIn">fadeIn</button>
         <div id="main_container">
             <table>
                 <tr>
