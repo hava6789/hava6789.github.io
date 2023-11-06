@@ -17,19 +17,25 @@ table, th, td{
     border-color:white;
     border-collapse: collapse;
 }
-th, td{
-    width:auto;
-    background-color:#63cfbd;
-}
 tr:hover{
     background-color:#FFFFFF;
     color:#000000;
+}
+th, td{
+    width:auto;
+    background-color:#63cfbd;
 }
 th{
     background-color:#42b8a4;
     color:#FFFFFF;
 }
+.innerTable{
+    border-style:none;
+    border-width:none;
+    border-color:none;
+    border-collapse: collapse;
+}
 img{
-    width:200px;
-    display:none;
+    width:250px;
+    display: none;
 }
